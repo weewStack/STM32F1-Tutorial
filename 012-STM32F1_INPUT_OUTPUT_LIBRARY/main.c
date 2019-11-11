@@ -17,7 +17,7 @@ int main(void)
 		}
 		else
 		{
-			W_GP(PC,13,0); /// Set the PIN 13 port C high
+			W_GP(PC,13,1); /// Set the PIN 13 port C high
 		}
 	}
 	
