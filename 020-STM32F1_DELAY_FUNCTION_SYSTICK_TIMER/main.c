@@ -1,16 +1,19 @@
 
 
-/* The topic of the video is setup an Interrupt function for the GPIO Perip
-By Usining the EXIT Reg, the program will generate a signal that will
-Enable the LED to Blink
+/* The topic of the video is setup an accurate delay function 
+using the systick timer
 */
 
 #include "stm32f10x.h"                  // Device header
 #include "gp_drive.h"
 void Delays(int time);
+void DelayMs(unsigned long t);
+void DelayMillis(void);
+void systick_init(void);
 int signal = 0;
 int main(void)
 {
+	systick_init();
 	init_GP(PA,0,IN,I_PP);
 	init_GP(PC,13,OUT50, O_GP_PP);
 	init_GP(PA,12,OUT50,O_GP_PP);
@@ -28,9 +31,9 @@ int main(void)
 		W_GP(PA,12,signal);
 		if(signal) /// Checking status of PIN ! portA 
 		{
-			Delays(10);
+			DelayMs(1000);
 			toggle_GP(PC,13); /// Toggle the PIN state
-			Delays(10);
+			DelayMs(1000);
 		}
 		else
 		{
@@ -59,5 +62,29 @@ void EXTI0_IRQHandler() // Interrupt Handler function for Port A pin 0
 	{signal = 0;}
 	else
 	{signal = 1;}
+}
+
+
+void systick_init(void)
+{
+	SysTick->CTRL = 0;
+	SysTick->LOAD = 0x00FFFFFF;
+	SysTick->VAL = 0;
+	SysTick->CTRL |= 5;
+}
+
+void DelayMillis(void)
+{
+	SysTick->LOAD = 0x11940;
+	SysTick->VAL = 0;
+	while((SysTick->CTRL & 0x00010000) == 0);
+}
+
+void DelayMs(unsigned long t)
+{
+	for(;t>0;t--)
+		{
+			DelayMillis();
+		}
 }
 
