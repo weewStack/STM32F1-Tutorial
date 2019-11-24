@@ -1,39 +1,57 @@
 # STM32F1-Tutorial
 
+Welecome To WeeW Electronics
+
 Follow the tutorial with all the details at this link: https://www.youtube.com/channel/UCnTWd_4LwCEcAw19Jds0Vjg
 
 Don't forget to subsicribe to out channel !! 
 
-Video's topic:
+Video's topics & link:
 
 000 - STM32F1 Tutorial Introduction Video
 
-https://www.youtube.com/watch?v=v0jaNTe81fo&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq
+https://youtu.be/v0jaNTe81fo
 
 
 010 - STM32F1 GPIO OUTPUT SETUP AND LED BLINK
 
-https://www.youtube.com/watch?v=LvfjFihNSgE&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq&index=2
+https://youtu.be/LvfjFihNSgE
 
 
 011 - STM32F1 GPIO INPUT OUTPUT
 
-https://www.youtube.com/watch?v=Le89FSDQWHk&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq&index=3
+
+https://youtu.be/Le89FSDQWHk
 
 
 012 -  STM32F1 GPIO INPUT OUTPUT LIBRARY FROM SCRATCH
 
-https://www.youtube.com/watch?v=e0JfbZEditA&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq&index=4
+
+https://youtu.be/e0JfbZEditA
 
 
 013 - STM32F1 GPIO INTERRUPT
 
-https://www.youtube.com/watch?v=lYbhQonNXWI&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq&index=5
+
+https://youtu.be/lYbhQonNXWI
 
 
 020 - STM32F1 DELAY FUNCTION & SYSTICK
 
-https://www.youtube.com/watch?v=lJ0XZlXCORI&list=PLtVUYRe-Z-mcjXXFBte61L8SjyI377VNq&index=6
+
+https://youtu.be/lJ0XZlXCORI
+
+
+021 - STM32F1 TUTORIAL : SYSTICK INTERRUPTS
+
+
+https://youtu.be/4Z5gUpiaqY8
+
+
+030 - STM32F1 UART USART COMMUNICATION BASICS: SET-UP Transmit Tx and Receive Rx
+
+
+https://youtu.be/TDoHlG0CK-8
 
 
 ENJOY 
