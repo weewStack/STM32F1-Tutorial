@@ -6,7 +6,7 @@ The topic of this program is to:
 
 - Simple init setup for UART
 - Send a char using UART
-- Recieve Char using UART
+- Recieve & send Char using UART
 
 Related explanatory video : https://youtu.be/TDoHlG0CK-8
 

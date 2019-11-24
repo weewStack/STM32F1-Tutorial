@@ -54,4 +54,10 @@ https://youtu.be/4Z5gUpiaqY8
 https://youtu.be/TDoHlG0CK-8
 
 
+031- STM32F1 USART UART SETUP INIT LIBRARY for USART : INPUT the USART  and BAUDE RATE
+
+
+https://youtu.be/w1wBcrSlydQ
+
+
 ENJOY 
