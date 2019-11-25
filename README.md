@@ -60,4 +60,10 @@ https://youtu.be/TDoHlG0CK-8
 https://youtu.be/w1wBcrSlydQ
 
 
+032-STM32F1 USART-UART Receive RX - Transmit Tx Library
+
+
+https://youtu.be/ZoSyhQNDyMI
+
+
 ENJOY 
