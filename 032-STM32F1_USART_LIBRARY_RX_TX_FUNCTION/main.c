@@ -8,7 +8,7 @@ The topic of this program is to:
 - A general init function for the UART Receive Rx
 
 
-Related explanatory video : 
+Related explanatory video : https://youtu.be/ZoSyhQNDyMI
 
 */
 
@@ -31,7 +31,6 @@ while(1)
 	{
 		chat = UART_RX(2);
 		UART_TX(2,chat);
-		
 	}
 }
 
