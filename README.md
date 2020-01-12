@@ -66,4 +66,10 @@ https://youtu.be/w1wBcrSlydQ
 https://youtu.be/ZoSyhQNDyMI
 
 
+033 - STM32F1 USART UART INTERRUPT STRATEGY: Advanced Software Interrupt Techniques 
+
+
+https://youtu.be/mb7G1-1RnZ8
+
+
 ENJOY 

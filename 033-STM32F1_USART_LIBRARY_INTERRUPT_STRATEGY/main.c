@@ -43,13 +43,13 @@ char msg[30] = "Welcome to the WeeW\n";
 int main(void)
 {
 systick_init();
-UART_init(2,256000);
-UART_init(3,28800);
+UART_init(2,115200);
+UART_init(3,115200);
 
 DelayMs(100);
 
-UART_SEND(2,msg);
-UART_SEND(3,msg);
+UART_SEND(2,"This is UART 2");
+UART_SEND(3,"This is UART 3");
 	
 
 while(1)
@@ -75,11 +75,11 @@ while(1)
 
 void USART2_IRQHandler()
 {
-	UART_ISR(2,0,&USART_2_sig, &USART_2_cnt, USART_2_msg);
+	UART_ISR(2,3,&USART_2_sig, &USART_2_cnt, USART_2_msg);
 }
 
 void USART3_IRQHandler()
 {
-	UART_ISR(3,0,&USART_3_sig, &USART_3_cnt, USART_3_msg);
+	UART_ISR(3,2,&USART_3_sig, &USART_3_cnt, USART_3_msg);
 }
 
