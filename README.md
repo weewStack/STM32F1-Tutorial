@@ -72,4 +72,17 @@ https://youtu.be/ZoSyhQNDyMI
 https://youtu.be/mb7G1-1RnZ8
 
 
+034 - STM32F1 USART ADVANCED COMMUNICATION SETUP
+
+
+https://youtu.be/lmqHhtjeI2c
+
+
+035 - STM32F1 USART  Build C  functions: String search, concatenate, integer 2 string, string to int
+
+
+https://youtu.be/Kstf7pNjqZQ
+
+
+
 ENJOY 
