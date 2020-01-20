@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESP01 Client</title>
+</head>
+<body>
+    <h1>Welcome WeeWs</h1>
+    <h3>Click into the botton to toggle the LED</h3>
+    <p>BLUE LED State <span id="BLED">___ </span> </p>
+    <p>RED LED State  <span id="RLED">___ </span></p>
+    <button id="1" onclick = "ledToggle(this.id)">Blue LED</button>
+    <button id="2" onclick = "ledToggle(this.id)">Red LED</button>
+    <script>
+    function ledToggle(clicked_id){
+        var xhr = new XMLHttpRequest();
+        var url = clicked_id;
+        xhr.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200)
+            {
+                if(this.responseText == "10")
+                {
+                    document.getElementById("BLED").innerHTML = "OFF";
+                }else if(this.responseText == "11")
+                {
+                    document.getElementById("BLED").innerHTML = "ON";
+                }else if(this.responseText == "20")
+                {
+                    document.getElementById("RLED").innerHTML = "OFF";
+                }else if(this.responseText == "21")
+                {
+                    document.getElementById("RLED").innerHTML = "ON";
+                }
+
+            }
+
+        };
+        xhr.open("GET",url,true);
+        xhr.send();
+    }
+    document.addEventListener("DOMContentLoaded",ledToggle,false)
+
+    var myInterval = setInterval(dataStream,1000);
+    function dataStream(){
+        var xhr = new XMLHttpRequest();
+        var url = '0'; 
+        xhr.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200)
+            {
+                if(this.responseText == "00")
+                {
+                    document.getElementById("SW").innerHTML = "LOW";
+                }else if(this.responseText == "01")
+                {
+                    document.getElementById("SW").innerHTML = "HIGH";
+                }
+            }
+
+        };
+        xhr.open("GET",url,true);
+        xhr.send();
+    }
+    document.addEventListener("dataStream",ledToggle,false)
+    </script>
+</body>
+</html>

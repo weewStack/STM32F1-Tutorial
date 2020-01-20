@@ -83,6 +83,15 @@ https://youtu.be/lmqHhtjeI2c
 
 https://youtu.be/Kstf7pNjqZQ
 
+036 -> 039 - STM32F1 USART ESP01 library from scratch
 
+
+https://youtu.be/W22WsNbMNOM
+
+https://youtu.be/Z9uYxLO3wSw
+
+https://youtu.be/403nkF0l9iE
+
+https://youtu.be/eTd8gCvQWMY
 
 ENJOY 
