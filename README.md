@@ -94,4 +94,10 @@ https://youtu.be/403nkF0l9iE
 
 https://youtu.be/eTd8gCvQWMY
 
+040 - 031 - STM32F1 SPI Communication Introduction & SETUP on STM32F1
+
+https://youtu.be/uib4Zbdr-1A
+
+
+
 ENJOY 
