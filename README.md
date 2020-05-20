@@ -98,6 +98,13 @@ https://youtu.be/eTd8gCvQWMY
 
 https://youtu.be/uib4Zbdr-1A
 
+041   STM32F1 SPI LIBRARY SETUP: Initialization function - Transmit Char & String functions
 
+https://youtu.be/_V8iblXHa5I
+
+
+042 - STM32F1 SPI COMMUNICATION EXAMPLE:  NOKIA 5110 LCD (PCD8544) SETUP & PRINT EXAMPLE
+
+https://youtu.be/H_5QQQnP0zg
 
 ENJOY 
