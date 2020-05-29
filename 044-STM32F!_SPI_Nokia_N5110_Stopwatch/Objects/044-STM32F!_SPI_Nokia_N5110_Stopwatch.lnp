@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\systick_time.o"
+".\objects\gp_drive.o"
+".\objects\spi_drive.o"
+".\objects\n5110_drive.o"
+".\objects\help_func.o"
+".\objects\stopwatch.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\044-STM32F!_SPI_Nokia_N5110_Stopwatch.map" -o .\Objects\044-STM32F!_SPI_Nokia_N5110_Stopwatch.axf

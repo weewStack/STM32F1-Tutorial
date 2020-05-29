@@ -1,0 +1,15 @@
+.\objects\stopwatch.o: stopwatch.c
+.\objects\stopwatch.o: stopwatch.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
+.\objects\stopwatch.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\stopwatch.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h
+.\objects\stopwatch.o: systick_time.h
+.\objects\stopwatch.o: gp_drive.h
+.\objects\stopwatch.o: SPI_drive.h
+.\objects\stopwatch.o: n5110_drive.h
+.\objects\stopwatch.o: help_func.h
