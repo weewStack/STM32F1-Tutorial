@@ -59,6 +59,8 @@ __enable_irq();
 	//lower DR speed
 	nrf_cmd_wr(1,NRF_SETUP ,RF_DR_LOW,RF_DR_MASK);
 	
+	nrf_cmd_wr(1,NRF_SETUP_RETR,ARD_750us,ARD_MASK);
+	
 	// Enable Dynamic Payload : Reg Feature bit EN_DPL
 	nrf_cmd_wr(1,NRF_FEATURE ,EN_DPL,EN_DPL_MASK);
 	nrf_cmd_wr(1,NRF_DYNPD ,EN_DPL_P0,EN_DPL_P0_MASK);

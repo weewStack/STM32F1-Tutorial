@@ -1,5 +1,5 @@
-#define Network "1C3E8473035F"
-#define Password "2211581814606"
+#define Network "***********"
+#define Password "**********"
 
 
 

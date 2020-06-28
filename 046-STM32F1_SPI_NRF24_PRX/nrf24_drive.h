@@ -91,9 +91,12 @@ enum nrf_reg
 
 
 void nrf_init(unsigned short spi);
+char nrf_cmd(unsigned short spi, char cmd);
 char nrf_cmd_rd(unsigned short spi, char register_add);
 char nrf_cmd_wr(unsigned short spi, char register_add, char new_value,char mask);
 void nrf_prx_init(unsigned short spi);
 void nrf_rf_rx(unsigned short spi,char payload[]);
+void nrf_ptx_init(unsigned short spi);
+void nrf_rf_tx(unsigned short spi,char payload[]);
 
 

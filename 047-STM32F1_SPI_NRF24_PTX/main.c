@@ -4,7 +4,7 @@
 #include "uart_drive.h"
 #include "nrf24_drive.h"
 /*
-Nokia Pin setup
+NRF24 Pin setup
 
 SPI - 1
 --> 
@@ -77,9 +77,9 @@ __enable_irq();
 					{
 						nrf_cmd_wr(1,NRF_STATUS,MAX_RT_SET,MAX_RT_MASK);
 						UART_SEND(2,"Max number of re-transmission reached\n");	
-						DelayMs(100);
+						DelayMs(500);
 					}
-					else if(nrf_cmd_rd(1,NRF_STATUS) & 0x10) 
+					else if(nrf_cmd_rd(1,NRF_STATUS) & 0x1) 
 					{
 						msg_status = 0;
 						trigger = 0;

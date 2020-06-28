@@ -149,7 +149,6 @@ void nrf_rf_rx(unsigned short spi,char payload[])
 	}
 	
 // nrf_ptx_init
-
 void nrf_ptx_init(unsigned short spi)
 {
 	nrf_cmd_wr(spi,NRF_STATUS ,RX_DR_SET,RX_DR_MASK);

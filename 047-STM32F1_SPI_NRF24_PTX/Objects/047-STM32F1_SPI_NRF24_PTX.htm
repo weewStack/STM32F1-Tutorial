@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\047-STM32F1_SPI_NRF24_PTX.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\047-STM32F1_SPI_NRF24_PTX.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Jun 22 01:07:41 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Jun 22 11:15:40 2020
 <BR><P>
 <H3>Maximum Stack Usage =        120 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -562,7 +562,7 @@ Global Symbols
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 350 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 352 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = main &rArr; UART_init &rArr; USART_BRR &rArr; __aeabi_dmul
 </UL>
 <BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_init
@@ -615,7 +615,7 @@ Global Symbols
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[62]"></a>nrf_init</STRONG> (Thumb, 422 bytes, Stack size 8 bytes, nrf24_drive.o(i.nrf_init))
+<P><STRONG><a name="[62]"></a>nrf_init</STRONG> (Thumb, 434 bytes, Stack size 8 bytes, nrf24_drive.o(i.nrf_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = nrf_init &rArr; nrf_cmd_wr &rArr; nrf_cmd_rd &rArr; spi_cs &rArr; W_GP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nrf_cmd_wr

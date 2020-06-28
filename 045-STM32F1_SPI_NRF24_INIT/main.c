@@ -4,7 +4,7 @@
 #include "uart_drive.h"
 #include "nrf24_drive.h"
 /*
-Nokia Pin setup
+NRF24 Pin setup
 
 SPI - 1
 --> 
