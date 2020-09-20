@@ -10,6 +10,7 @@ int main(void)
 	systick_init();
 	oled_init_64(2);
 	
+		
 	oled_blank(2);
 	oled_msg(2,3,30,"Hello WeeW");
 	DelayMs(2000);
