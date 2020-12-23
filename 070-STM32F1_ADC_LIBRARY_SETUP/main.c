@@ -21,6 +21,7 @@ while(1)
 		int2char(analog_rx,num);
 		UART_SEND(2,num);
 		str_empty(num);
+		
 		UART_SEND(2," ADC2: ");
 		analog_rx = adc_rx(adc2, PA, 1) * 330;
 		analog_rx = analog_rx / 100;
