@@ -10,3 +10,6 @@
 .\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h
 .\objects\main.o: systick_time.h
+.\objects\main.o: uart_drive.h
+.\objects\main.o: gp_drive.h
+.\objects\main.o: systick_time.h

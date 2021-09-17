@@ -1,0 +1,17 @@
+#include "stm32f10x.h"  
+#include "gp_drive.h" 
+#include "systick_time.h"
+
+/*Function to setup the correct Baude rate input for STM32F1*/
+unsigned long USART_BRR(unsigned short usart, unsigned long BR);
+/*Function to init UART communication STM32F1*/
+void UART_init(unsigned short usart, unsigned long BR);
+/*Function to init UART communication STM32F1*/
+char UART_RX(unsigned short uart);
+void UART_TX(unsigned short uart, char c);
+void UART_ISR(unsigned short uart,unsigned short uart_mgr[], char str[]);
+void UART_SEND(unsigned short uart, char str[]);
+
+
+
+

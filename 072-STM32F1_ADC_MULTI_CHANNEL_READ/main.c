@@ -1,5 +1,6 @@
 #include "adc_drive.h"
-
+#include "uart_drive.h"
+#include "msg_drive.h"
 /*
 PA0 -> ADC12_IN0
 PA1 -> ADC12_IN1
@@ -22,6 +23,9 @@ PC5 -> ADC12_IN15
 ADC12_IN16 input channel which is used to convert the sensor output voltage into a digital value.
 
 */
+
+
+
 char adc_channels[17] = {PB1,PA4,PA0,PA1};
 int analog_rx[17];
 char channels = 4;
@@ -29,11 +33,15 @@ char channels = 4;
 int main(void)
 {
 	systick_init(); // Initialize the delay function
+	UART_init(2,115200);
 	adc_multi_ch_init(adc1, channels, adc_channels);
 	
 	
 while(1)
 	{
 		adc_multi_ch_rx(adc1, channels, adc_channels, analog_rx);
+		//UART_TX(2,'R');
 	}
 }
+
+
